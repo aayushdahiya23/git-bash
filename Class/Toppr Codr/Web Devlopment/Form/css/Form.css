@@ -1,0 +1,36 @@
+.container{
+    padding:1.5em;
+    height:100%;
+  }
+  form{
+    background-color:#1BFB07;
+    text-align:center;
+    display:inline-block;
+    vertical-align:middle;
+    border:5px outset blue;
+    border-radius:10%;
+  }
+  body{
+    text-align:center;
+    background-image:url(https://cdn.wallpaperhub.app/cloudcache/1/b/5/8/e/f/1b58ef6e3d36a42e01992accf5c52d6eea244353.jpg);
+  }
+  label{
+    color:black;
+    font-weight:bold;
+  }
+  .underline--double{
+    box-shadow:
+      inset 0 -0.075em lightblue,
+      inset 0 -0.1em red,
+      inset 0 -0.15em lightblue,
+      inset 0 -0.175em red;
+  }
+  .alert{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(21, 255, 0);
+    display: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+  }

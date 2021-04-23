@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Form</title>
+    <link rel="stylesheet" href="./css/Form.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span class="underline--double">Personal Information Form</></h1>
+          <div class="alert">Your message has been sent</div>
+        <form id="myform">
+        <p><label>First name:</label><br>
+        <input id="fname" type="text" placeholder="Example: Narendra"></p>
+        <p><label>Last name:</label><br>
+        <input id="lname" type="text" placeholder="Example: Modi"></p>
+        <p><label>Mobile No.📱:</label><br>
+        <input id="mobno" type="number" placeholder="Example: 9999999999"></p>
+        <p><label>Email 📧:</label><br>
+        <input id="email" type="email" placeholder="Example: abcd@gmail.com"></p>
+        <p><label>Password:</label><br>
+        <input id="password" type="password" placeholder="Example: #####"></p>
+        <p><label>Gender:</label><br>
+        <input id="male" name="radio" type="radio"><label>Male</label><br>
+        <input id="female" name="radio" type="radio"><label>Female</label><br>
+        <input id="other" name="radio" type="radio"><label>Other</label>
+        </p>
+        
+        <p><label>Fav Subjects:</label><br>
+        <input id="male" name="checkbox" type="checkbox"><label>Maths</label><br>
+        <input id="female" name="checkbox" type="checkbox"><label>Physics</label><br>
+        <input id="other" name="checkbox" type="checkbox"><label>Chemistry</label>
+        </p>
+        <p><label>Fav colour:</label><br>
+        <input id="favcol" type="color"</p>
+        <p><label for="start">D.O.B:</label><br>
+      <input type="date" name="input" id="dob"></p>
+        <p><label>Sleep time:</label><br>
+        <input id="time" type="time"></p>
+        <p><label>Salary:</label><br>
+        <input id="salary" type="number" placeholder="Example: 50000">
+          <select>
+          <option value="" disabled selected>currency</option>
+          <option>INR</option>
+          <option>USD</option>
+          <option>GBP</option>
+          </select>
+        <select>
+          <option value="" disabled selected>period</option>
+          <option>per annum</option>
+          <option>per month</option>
+          <option>per week</option>
+          </select>
+        </p>
+          <p><label>Profile summary:</label><br>
+            <textarea rows="4" cols="50" placeholder="Example: I am the PM of INDIA">
+              </textarea>
+        </p>
+        <p><br>
+          <input type="Submit">
+          <input type="Reset">
+          </p>
+        </form>
+        <div class="alert">Your message has been sent</div>
+        </div>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase.js"></script>
+        <script src="./js/Form.js"></script>
+</body>
+</html>
